@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 	<title>ViTa</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" type="img" href="./img/favicon.png"/>
+	
 	<!-- Estilos -->
 
 	<!--Import Google Icon Font-->
@@ -24,11 +27,11 @@
 	<nav class="red lighten-2" role="navigation">
 		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><i class="medium material-icons">assistant</i>ViTA</a>
 			<ul class="right hide-on-med-and-down">
-				<li><a href="#"><i class="small material-icons left">exit_to_app</i>Login</a></li>
+				<li><a href="#"><i class="small material-icons left">vpn_key</i>Login</a></li>
 			</ul>
 
 			<ul id="nav-mobile" class="side-nav">
-				<li><a href="#"><i class="small material-icons left">exit_to_app</i>Login</a></li>
+				<li><a href="#"><i class="small material-icons left">vpn_key</i>Login</a></li>
 			</ul>
 			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 		</div>
@@ -48,8 +51,8 @@
 									<form class="col s12">
 										<div class="row">
 											<div class="input-field col s12">
-												<input placeholder="Username or email" id="first_name" type="text" class="validate">
-												<label for="first_name">User Name</label>
+												<input placeholder="Username or email" id="user_name" type="text" class="validate">
+												<label for="user_name">Username</label>
 											</div>
 										</div>
 										<div class="row">

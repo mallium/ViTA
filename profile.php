@@ -110,23 +110,46 @@
 							<div class="collapsible-body white">
 								<br>
 								<div class="row">
-									<!-- <div class="course-card red lighten-1 col s12 center-align white-text">
+									<div class="course">
 										<div class="course-name">Curso 1</div>
-										<div class="coach-name">Profesor Chancla</div>
-										<div class="course-progress valign-wrapper center-align">progress</div>
-										<div class="tasks-progress valign-wrapper center-align"> 5/9</div>
-									</div> -->
-
-									<table id="courses-res-table" class="white-text">
-										<tr class="course red lighten-1">
-											<td>
-												<div class="course-name">Course 1</div>
-												<div class="coach-name">#Coach Chancla</div>
-											</td>
-											<td><span class="course-progress">5,4,6,2,7,8,4,9</span></td>
-											<td><span class="task-progress">81%</span></td>
-										</tr>
-									</table>
+										<div class="coach-name">Profesor Chancla1</div>
+										<div class="course-progress">42</div>
+										<div class="course-difficulty">Facil</div>
+										<div class="course-knowledge">Intermedio</div>
+										<div class="course-like">95</div>
+									</div>
+									<div class="course">
+										<div class="course-name">Curso 2</div>
+										<div class="coach-name">Profesor Chancla2</div>
+										<div class="course-progress">85</div>
+										<div class="course-difficulty">Dificil</div>
+										<div class="course-knowledge">Intermedio</div>
+										<div class="course-like">80</div>
+									</div>
+									<div class="course">
+										<div class="course-name">Curso 3</div>
+										<div class="coach-name">Profesor Chancla3</div>
+										<div class="course-progress">73</div>
+										<div class="course-difficulty">Facil</div>
+										<div class="course-knowledge">Intermedio</div>
+										<div class="course-like">200</div>
+									</div>
+									<div class="course">
+										<div class="course-name">Curso 4</div>
+										<div class="coach-name">Profesor Chancla4</div>
+										<div class="course-progress">64</div>
+										<div class="course-difficulty">Facil</div>
+										<div class="course-knowledge">Intermedio</div>
+										<div class="course-like">10</div>
+									</div>
+									<div class="course">
+										<div class="course-name">Curso 5</div>
+										<div class="coach-name">Profesor Chancla5</div>
+										<div class="course-progress">19</div>
+										<div class="course-difficulty">Muy Dificil</div>
+										<div class="course-knowledge">Intermedio</div>
+										<div class="course-like">2</div>
+									</div>
 								</div>	
 							</div>
 						</li>
@@ -172,6 +195,9 @@
 
 	<!-- Materialize -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	
+	<!-- D3 -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
 
 	<!-- Propio -->
 	<script src="./js/index.js"></script>

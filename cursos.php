@@ -23,6 +23,10 @@
 		footer{
 			bottom: 0px;
 		}
+
+		.tab>a.active{
+			font-weight: bolder;
+		}
 	</style>
 
 	<!--Import Google Icon Font-->
@@ -47,6 +51,10 @@
 	<nav class="red lighten-2" role="navigation">
 		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><i class="medium material-icons">assistant</i>ViTA</a>
 			<ul class="right hide-on-med-and-down">
+				<li><a href="#">Course List</a></li>
+				<li><a href="#">Create a Course</a></li>
+				<li><a href="#">help</a></li>
+				<li><a href="#"><i class="small material-icons left">account_circle</i>profile</a></li><!-- agregar carita  -->
 				<li><a href="#"><i class="small material-icons left">highlight_off</i>Logout</a></li>
 			</ul>
 
@@ -61,14 +69,14 @@
 		<div class="row">
 		    <div class="col s12">
 		      <ul class="tabs">
-		        <li class="tab col s3"><a href="#test1">Dante</a></li>
-		        <li class="tab col s3"><a href="#test1">Claudio</a></li>
-		        <li class="tab col s3"><a class="active" href="#test2">Lucia</a></li>
+		        <li class="tab col s3"><a href="#test1">Matrix</a></li>
+		        <li class="tab col s3"><a href="#test2">Chemistry Lab</a></li>
+		        <li class="tab col s3"><a class="active" href="#test3">Bubbles</a></li>
 		      </ul>
 		    </div>
-		    <div id="test1" class="col s12">Contenido de Dante</div>
-		    <div id="test1" class="col s12">Contenido de Claudio</div>
-		    <div id="test2" class="col s12">Contenido de Lucia</div>
+		    <div id="test1" class="col s12 white">Contenido de Dante</div>
+		    <div id="test2" class="col s12 white">Contenido de Claudio</div>
+		    <div id="test3" class="col s12 white">Contenido de Lucia</div>
 	  	</div>
 	</div>
 	<br>
@@ -117,6 +125,21 @@
 		$(document).ready(function(){
 		    $('ul.tabs').tabs();
 		});
+
+		(function(c,s){
+			//la data deviese entregarse cono un valor en settings
+			default = {
+				data: {}
+			}
+
+			settings = Object.assign({}, default, s);
+
+			//magia x acá
+
+
+			//
+
+		})(container,settings)
 	</script>
 </body>
 </html>

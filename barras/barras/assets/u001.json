@@ -1,0 +1,22 @@
+{
+    "id": "u001",
+    "name" : "Heisenberg",
+    "courseList": [ 
+		{
+		  "id" : "1",
+		  "name" : "Introducción a la Programación",
+		  "skillLevel": 2.34,
+		  "nUnits": 5,
+		  "nLearners": 21,
+		  "nActiveLearners": 14
+		},
+		{
+		  "id" : "2",
+		  "name" : "Taller de Ingeniería",
+		  "skillLevel": 3.21,
+		  "nUnits": 4,
+		  "nLearners": 15,
+		  "nActiveLearners": 8
+		}
+    ]
+}
